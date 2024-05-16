@@ -70,6 +70,6 @@ TODO
 
 ## Clone this repository 
 ```sh
-TODO
+git clone --depth 1 https://github.com/CzarnowkiJ/home.git ~/
 ```
 

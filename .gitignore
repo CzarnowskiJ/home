@@ -1,0 +1,9 @@
+*
+
+!.gitignore
+!README.md
+!scripts/
+!.p10k.zsh
+!.zshrc
+!.local/
+
