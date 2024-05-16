@@ -1,6 +1,14 @@
 # Installation 
 
-## Zsh and oh-my-zsh
+**UBUNTU ONLY**
+
+## Shell
+
+Customizacja shell - zsh
+
+### Zsh and oh-my-zsh
+
+Oh-my-zsh https://github.com/ohmyzsh/ohmyzsh
 
 ```sh
 sudo apt update
@@ -10,38 +18,59 @@ sudo apt install zsh -y
 sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 ```
 
-## powerlevel10k zsh theme
+### powerlevel10k zsh theme
 
+Motyw powerlevel10k dla oh-my-zsh https://github.com/romkatv/powerlevel10k?tab=readme-ov-file#oh-my-zsh
+
+Wymagania:
+* czcionka -nerd https://github.com/tonsky/FiraCode
 
 ```sh
 git clone --depth=1 https://github.com/romkatv/powerlevel10k.git ${ZSH_CUSTOM:-$HOME/.oh-my-zsh/custom}/themes/powerlevel10k
 ```
+**NOTE** Plik `.p10k.zsh` zawarty w repo `Czarnowskij/home.git` nadpisuje kofiguracje inicjalną motywu p10k!!
 
-## FZF 
+## Tools
+
+### FZF 
+
+FuzzyFinder https://github.com/junegunn/fzf
 
 ```sh
 git clone --depth 1 https://github.com/junegunn/fzf.git ~/.fzf
 ~/.fzf/install
-
-# Set up fzf key bindings and fuzzy completion
-source <(fzf --zsh)
 ```
+FZF-git
 
 ```sh
 #fzf-git
 git clone https://github.com/junegunn/fzf-git.sh.git
 ```
 
-## FD 
+### FD 
+
+fd-find https://github.com/sharkdp/fd
 
 ```sh
 sudo apt install fd-find
 ```
 
-## bat 
+**NOTE** Potrzebny link do bin (zawarty w repo `CzarnowskiJ/home.git` -> `.local.bin`)
+
+```sh
+# in case 
+
+ln -s /usr/bin/fdfind ~/.local/bin/fd
+```
+
+### bat 
+
+bat = lepszy cat https://github.com/sharkdp/bat
 
 ```sh
 sudo apt install bat
+
+#Motyw wykorzystwany przez bat w pliku ~/.zshrc
 
 mkdir -p "$(bat --config-dir)/themes"
 
@@ -52,7 +81,15 @@ curl -O https://raw.githubusercontent.com/folke/tokyonight.nvim/main/extras/subl
 bat cache --build
 ```
 
-## eza
+**NOTE** Potrzebny link do bin (zawarty w repo `CzarnowskiJ/home.git` -> `.local.bin`)
+
+```sh
+# in case 
+
+ln -s /usr/bin/batcat ~/.local/bin/bat
+```
+
+### eza
 ```sh
 sudo apt install -y gpg
 sudo mkdir -p /etc/apt/keyrings
@@ -63,12 +100,19 @@ sudo apt update
 sudo apt install -y eza
 ```
 
-## nvim 
+### nvim 
 ```sh
 TODO
 ```
 
-## Clone this repository 
+### Clone this repository 
+
+Repozytorium `CzarnowskiJ\home.git`
+* nadpisuje 
+	* `p10k.zsh` plik konfiguracyjny dla motywu p10k
+	* `.zshrc` plik konfiguracyjny dla zsh (dla dokumentacji zajrzyj do pliku `.zshrc` w repozytorium)
+
+
 ```sh
 git clone --depth 1 https://github.com/CzarnowkiJ/home.git ~/
 ```
