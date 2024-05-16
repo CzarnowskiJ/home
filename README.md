@@ -8,7 +8,7 @@ sudo chmod +x ~/tmp_home_repo/scripts/installShell
 ~/tmp_home_repo/scripts/installShell
 ```
 
-Instalacja zakończy się ASCII artem oh my zsh i informacją o pomyślnie zainstalowanym zsh.\n
+Instalacja zakończy się ASCII artem oh my zsh i informacją o pomyślnie zainstalowanym zsh.  
 Następnie:
 
 ```sh
