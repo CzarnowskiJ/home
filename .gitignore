@@ -3,6 +3,7 @@
 !.gitignore
 !README.md
 !scripts/
+!/scripts/
 !.p10k.zsh
 !.zshrc
 !.local/
