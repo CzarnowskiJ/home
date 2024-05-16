@@ -89,7 +89,10 @@ bat cache --build
 ln -s /usr/bin/batcat ~/.local/bin/bat
 ```
 
-### eza
+### eza 
+
+eza = lepszy ls https://github.com/eza-community/eza/blob/main/INSTALL.md
+
 ```sh
 sudo apt install -y gpg
 sudo mkdir -p /etc/apt/keyrings
