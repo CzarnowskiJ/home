@@ -111,7 +111,7 @@ Repozytorium `CzarnowskiJ\home.git`
 * nadpisuje 
 	* `p10k.zsh` plik konfiguracyjny dla motywu p10k
 	* `.zshrc` plik konfiguracyjny dla zsh (dla dokumentacji zajrzyj do pliku `.zshrc` w repozytorium)
-
+* dodaje linki do `fd` oraz `bat` w `.local\bin`
 
 ```sh
 git clone --depth 1 https://github.com/CzarnowkiJ/home.git ~/
