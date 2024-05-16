@@ -1,4 +1,4 @@
-#!/bin/bas
+#!/bin/bash
 
 cd ~
 # zsh + ohmyzsh
