@@ -117,6 +117,7 @@ Repozytorium `CzarnowskiJ\home.git`
 * dodaje linki do `fd` oraz `bat` w `.local\bin`
 
 ```sh
-git clone --depth 1 https://github.com/CzarnowkiJ/home.git ~/
+git clone https://github.com/CzarnowskiJ/home.git ~/tmp_home_repo
+mv -f ~/tmp_home_repo/.* ~/tmp_home_repo/* ~/
+rm -rf ~/tmp_home_repo
 ```
-
