@@ -123,12 +123,12 @@ export FZF_ALT_C_COMMAND="fd --type=d --hidden --strip-cwd-prefix --no-ignore-vc
 # - The first argument to the function ($1) is the base path to start traversal
 # - See the source code (completion.{bash,zsh}) for the details.
 _fzf_compgen_path() {
-  fd --hidden --exclude .git . "$1"
+  fd --hidden  --no-ignore-vcs --exclude .git . "$1"
 }
 
 # Use fd to generate the list for directory completion
 _fzf_compgen_dir() {
-  fd --type=d --hidden --exclude .git . "$1"
+  fd --type=d --hidden --no-ignore-vcs --exclude .git . "$1"
 }
 export FZF_CTRL_T_OPTS="--preview 'bat -n --color=always --line-range :500 {}'"
 export FZF_ALT_C_OPTS="--preview 'eza --tree --color=always {} | head -200'"
