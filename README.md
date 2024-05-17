@@ -23,7 +23,7 @@ I have not created any of those tools, I just simply use them because they are g
 
 # Installation 
 
-## UBUNTU ONLY
+## UBUNTU 20.04 and higher ONLY
 
 ```sh
 git clone https://github.com/CzarnowskiJ/home.git ~/tmp_home_repo
