@@ -77,7 +77,7 @@ ZSH_THEME="powerlevel10k/powerlevel10k"
 # Custom plugins may be added to $ZSH_CUSTOM/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(git)
+plugins=(git zsh-autosuggestions)
 
 source $ZSH/oh-my-zsh.sh
 
@@ -163,3 +163,8 @@ alias ls="eza --color=always --long --git --no-filesize --icons=always --no-time
 
 export PATH=$PATH:~/.local/bin
 
+# ======== zsh-aut ========
+
+# bind autosuggestion accept to ctrl+space
+
+bindkey '^ ' autosuggest-accept

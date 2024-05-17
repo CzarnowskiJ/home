@@ -16,6 +16,7 @@ I have not created any of those tools, I just simply use them because they are g
 * fd-find	https://github.com/sharkdp/fd
 * bat		https://github.com/sharkdp/bat
 * eza		https://github.com/eza-community/eza
+* zsh-autosuggestions	https://github.com/zsh-users/zsh-autosuggestions
 
 ## Requirements
 
