@@ -163,4 +163,3 @@ alias ls="eza --color=always --long --git --no-filesize --icons=always --no-time
 
 export PATH=$PATH:~/.local/bin
 
-#test only
