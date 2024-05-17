@@ -18,7 +18,7 @@ I have not created any of those tools, I just simply use them because they are g
 * eza		https://github.com/eza-community/eza
 * zsh-autosuggestions	https://github.com/zsh-users/zsh-autosuggestions
 * zsh-syntax-highlighting	https://github.com/zsh-users/zsh-syntax-highlighting
-* nvim kickstart 'CzarnowskiJ/kickstart.vim' fork	https://github.com/CzarnowskiJ/kickstart.nvim
+* nvim kickstart `CzarnowskiJ/kickstart.vim` fork	https://github.com/CzarnowskiJ/kickstart.nvim
 	* origin repo https://github.com/nvim-lua/kickstart.nvim
 
 ## Requirements
